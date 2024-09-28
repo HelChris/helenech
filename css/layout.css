@@ -12,9 +12,12 @@ nav {
 	padding: 0.3em;
 	background-color: #2ad7d7c4;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-	border-radius: 1rem;
+	border-radius: 1rem 0 1rem 0;
 	width: fit-content;
 	margin: 0 auto;
+}
+.nav-box {
+	padding: 0.5rem;
 }
 a {
 	padding: 0 0.3em;
@@ -34,7 +37,7 @@ footer {
 }
 .hi-box {
 	padding: 1rem;
-	margin-top: 20vh;
+	margin-top: 15vh;
 }
 .link-box {
 	padding: 0.3rem 0;

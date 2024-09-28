@@ -5,7 +5,7 @@ a {
 	color: #fff;
 }
 a:hover {
-	text-decoration: line-through;
+	text-decoration: underline;
 	text-shadow: 0.6px 0 0 currentColor;
 	cursor: /* Start https://www.cursors-4u.com */
 		url(https://cur.cursors-4u.net/symbols/sym-1/sym57.cur), auto; /* End https://www.cursors-4u.com */
