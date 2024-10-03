@@ -1,10 +1,2 @@
-@import url('_layout.css');
-@import url('_typography.css');
-
-*,
-*::after,
-*::before {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
+@import url("_typography.css");
+@import url("_layout.css");

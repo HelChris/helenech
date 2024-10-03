@@ -1,18 +1,67 @@
+.raleway-h1 {
+	font-family: "Raleway", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: italic;
+}
+.cherry-swash-regular {
+	font-family: "Cherry Swash", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+.cherry-swash-bold {
+	font-family: "Cherry Swash", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+.montserrat-p {
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+.header-box {
+	font-family: "Raleway", sans-serif;
+}
 a {
 	text-decoration: none;
 	color: #000;
 	font-weight: lighter;
 	color: #fff;
+	text-shadow: 1px 1px 2px black;
 }
 a:hover {
 	text-decoration: underline;
 	text-shadow: 0.6px 0 0 currentColor;
+	color: #000;
 	cursor: /* Start https://www.cursors-4u.com */
 		url(https://cur.cursors-4u.net/symbols/sym-1/sym57.cur), auto; /* End https://www.cursors-4u.com */
 }
 .sub-title {
+	margin: 5px 0 0 0;
+	text-align: center;
+	font-style: oblique;
+	font-size: 18px;
 	font-weight: lighter;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
 }
 p {
 	padding: 0.1em;
+}
+.hi-h1 {
+	font-size: 30px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1.5px black;
+}
+#projects-h1 {
+	margin: 2rem;
+	color: #fff;
+}
+.svg-icon {
+	color: #000;
+	margin: 1rem;
+}
+.svg-icon:hover {
+	color: #fff;
 }
