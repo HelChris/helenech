@@ -50,11 +50,12 @@ footer {
 	align-items: center;
 	min-height: 55vh;
 }
-.hi-paragraph {
+.link-box {
+	display: flex;
 	padding: 1rem;
-	text-align: center;
 }
-#project-section {
+#project-section,
+#skills-section {
 	background: linear-gradient(black 80%, #2ad7d7c4);
 	width: 100vw;
 	display: flex;
