@@ -53,15 +53,61 @@ footer {
 .link-box {
 	display: flex;
 	padding: 1rem;
+	flex-wrap: wrap;
+	justify-content: center;
 }
-#project-section,
-#skills-section {
-	background: linear-gradient(black 80%, #2ad7d7c4);
-	width: 100vw;
+.project-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.project-text,
+.contact-p {
+	color: #fff;
+	font-family: "montserrat", sans-serif;
+	padding: 1rem;
+	width: 30%;
+	align-items: center;
+}
+.contact-content {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+#project-section,
+#skills-section {
+	background: linear-gradient(black 90%, #2ad7d7c4);
+	width: 100vw;
+	display: flex;
 	min-height: 100vh;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	padding-bottom: 100px;
+}
+#contact-section {
+	background: linear-gradient(black 90%, #2ad7d7c4);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	padding: 2rem 0;
 }
 .img-illustration {
-	width: 90px;
+	max-height: 90px;
+	display: flex;
+}
+.contact-wrapper {
+	border-radius: 10px;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: fit-content;
+	background-color: #ffffff2b;
 }

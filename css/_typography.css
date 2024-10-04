@@ -37,6 +37,10 @@
 	cursor: /* Start https://www.cursors-4u.com */
 		url(https://cur.cursors-4u.net/symbols/sym-1/sym57.cur), auto; /* End https://www.cursors-4u.com */
 }
+a:hover {
+	cursor: /* Start https://www.cursors-4u.com */
+		url(https://cur.cursors-4u.net/symbols/sym-1/sym57.cur), auto; /* End https://www.cursors-4u.com */
+}
 .sub-title {
 	margin: 5px 0 0 0;
 	text-align: center;
@@ -53,6 +57,7 @@ p {
 	font-size: 30px;
 	text-transform: uppercase;
 	text-shadow: 1px 1px 1.5px black;
+	text-align: center;
 }
 .section-h1 {
 	margin: 2rem;
