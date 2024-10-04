@@ -62,16 +62,6 @@ footer {
 	align-items: center;
 	flex-wrap: wrap;
 }
-.project-text {
-	width: 30%;
-}
-.project-text,
-.contact-p {
-	color: #fff;
-	font-family: "montserrat", sans-serif;
-	padding: 1rem;
-	align-items: center;
-}
 .contact-content {
 	display: flex;
 	justify-content: center;

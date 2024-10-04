@@ -89,3 +89,15 @@ p {
 .contact-h1 {
 	padding-top: 1rem;
 }
+.project-text {
+	width: 30%;
+}
+.project-text,
+.contact-p {
+	color: #fff;
+	font-family: "montserrat", sans-serif;
+	padding: 1rem;
+	align-items: center;
+	text-wrap: pretty;
+	text-align: center;
+}
