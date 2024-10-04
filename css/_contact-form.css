@@ -35,3 +35,7 @@ textarea {
 .form-button {
 	margin: 0 auto;
 }
+.contact-page {
+	display: flex;
+	justify-content: center;
+}
