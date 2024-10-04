@@ -10,6 +10,7 @@
 	text-decoration: none;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	border-radius: 1rem 0 1rem 0;
+	font-size: 16px;
 }
 .button:hover {
 	text-decoration: underline;
