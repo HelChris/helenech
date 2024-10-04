@@ -1,0 +1,24 @@
+.button {
+	height: 30px;
+	background-color: #2ad7d7c4;
+	color: #000;
+	padding: 20px;
+	margin: 1rem;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	border-radius: 1rem 0 1rem 0;
+}
+.button:hover {
+	text-decoration: underline;
+	border-bottom: #000;
+	text-shadow: 0 0 0.3px black;
+	box-shadow: 0 4px 4px rgba(18, 105, 105, 0.77);
+}
+.buttons-box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
