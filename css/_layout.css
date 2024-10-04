@@ -62,12 +62,14 @@ footer {
 	align-items: center;
 	flex-wrap: wrap;
 }
+.project-text {
+	width: 30%;
+}
 .project-text,
 .contact-p {
 	color: #fff;
 	font-family: "montserrat", sans-serif;
 	padding: 1rem;
-	width: 30%;
 	align-items: center;
 }
 .contact-content {
@@ -75,6 +77,9 @@ footer {
 	justify-content: center;
 	flex-wrap: wrap;
 	align-items: center;
+}
+.contact-content > * {
+	flex: 1 1 45%;
 }
 
 #project-section,
@@ -100,14 +105,15 @@ footer {
 }
 .img-illustration {
 	max-height: 90px;
+	max-width: 90px;
 	display: flex;
+	margin-right: 1rem;
 }
 .contact-wrapper {
 	border-radius: 10px;
-	padding: 1rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: fit-content;
 	background-color: #ffffff2b;
+	max-width: 50%;
 }
