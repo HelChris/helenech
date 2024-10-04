@@ -27,8 +27,8 @@
 	text-decoration: none;
 	color: #000;
 	font-weight: lighter;
-	color: #fff;
-	text-shadow: 1px 1px 2px black;
+	color: #e1d9d1;
+	text-shadow: 1px 1px 2px #121212;
 }
 .nav-a:hover {
 	text-decoration: underline;
@@ -60,21 +60,22 @@ p {
 	text-align: center;
 }
 .section-h1 {
-	margin: 2rem;
-	color: #fff;
+	margin-top: 2rem;
+	color: #e1d9d1;
+	text-align: center;
 }
 .link-a {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	color: #000;
+	color: #121212;
 	text-shadow: none;
 	font-size: small;
 	text-decoration: none;
 }
 .link-a:hover,
 .svg-icon:hover {
-	color: #fff;
+	color: #e1d9d1;
 	cursor: /* Start https://www.cursors-4u.com */
 		url(https://cur.cursors-4u.net/symbols/sym-1/sym57.cur), auto; /* End https://www.cursors-4u.com */
 }
@@ -88,16 +89,47 @@ p {
 }
 .contact-h1 {
 	padding-top: 1rem;
-}
-.project-text {
-	width: 30%;
+	border-bottom: 1px solid #e1d9d1;
 }
 .project-text,
+.skills-p,
 .contact-p {
-	color: #fff;
+	color: #e1d9d1;
 	font-family: "montserrat", sans-serif;
 	padding: 1rem;
 	align-items: center;
 	text-wrap: pretty;
 	text-align: center;
+}
+ul {
+	/* max-width: 500px; */
+	margin: 0 auto;
+	text-wrap: balance;
+	text-align: center;
+}
+li {
+	font-family: "montserrat", sans-serif;
+	text-align: center;
+	list-style: none;
+	display: inline-block;
+	margin: 0.3rem;
+	border: 1px solid #e1d9d1;
+	padding: 0.5rem;
+	border-radius: 10px;
+}
+.ul-box {
+	display: flex;
+	flex-wrap: wrap;
+	width: 400px;
+	justify-content: center;
+}
+.skills-h3 {
+	font-weight: normal;
+	margin: 0 auto;
+	padding-bottom: 0.5rem;
+}
+.skills-p,
+.skills-h2 {
+	text-align: center;
+	margin: 0 auto;
 }

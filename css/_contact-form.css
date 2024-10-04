@@ -1,0 +1,37 @@
+form {
+	width: 450px;
+	margin: 1rem 0 4rem 0;
+	padding: 2rem;
+	background-color: #ffffff2b;
+	color: #edeae7;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(105, 27, 27, 0.1);
+}
+.legend-contact-form {
+	font-size: 30px;
+	padding: 0 1rem;
+}
+.form-group {
+	margin-bottom: 1rem;
+}
+label {
+	display: block;
+	margin: 1rem 0 0 1rem;
+}
+input,
+textarea {
+	width: 90%;
+	padding: 0.5rem;
+	margin-left: 1rem;
+	border: 1px solid #2c2a2a;
+	border-radius: 4px;
+	background-color: #99d9db;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+}
+.nav-contact-page {
+	color: #ffffff;
+}
+.form-button {
+	margin: 0 auto;
+}
