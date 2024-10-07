@@ -2,10 +2,10 @@ form {
 	width: 450px;
 	margin: 1rem 0 4rem 0;
 	padding: 2rem;
-	background-color: #ffffff2b;
+	background-color: #24327759;
 	color: #edeae7;
 	border-radius: 8px;
-	box-shadow: 0 0 10px rgba(105, 27, 27, 0.1);
+	box-shadow: 4px 2px 4px rgba(18, 105, 105, 0.77);
 }
 .legend-contact-form {
 	font-size: 30px;
@@ -34,8 +34,14 @@ textarea {
 }
 .form-button {
 	margin: 0 auto;
+	cursor: /* Start https://www.cursors-4u.com */
+		url(https://cur.cursors-4u.net/symbols/sym-1/sym57.cur), auto; /* End https://www.cursors-4u.com */
 }
 .contact-page {
 	display: flex;
 	justify-content: center;
+	background: linear-gradient(#121212 95%, #2ad7d7c4);
+}
+.nav-box-contact {
+	background-color: #121212;
 }
