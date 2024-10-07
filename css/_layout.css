@@ -128,6 +128,7 @@ footer {
 @media (max-width: 600px) {
 	#hi-box {
 		width: 100%;
+		padding-top: 20vh;
 	}
 	.hi-h1 {
 		max-width: 300px;
@@ -155,18 +156,39 @@ footer {
 	#contact-section {
 		padding: 3rem;
 	}
-}
-@media (max-width: 500px) {
-	.contact-content {
-		flex-direction: column;
-		text-wrap: balance;
+	.skills-h2 {
+		max-width: 90vw;
 	}
-	.hi-paragraph {
-		text-wrap: balance;
+	#project-section {
+		margin: 0 auto;
+		background: linear-gradient(#121212 98%, #2ad7d7c4);
 	}
-}
-@media (max-width: 350px) {
-	.link-box {
-		flex-direction: column;
+	#contact-section {
+		background: linear-gradient(#121212 94%, #2ad7d7c4);
+	}
+	#skills-section {
+		background: linear-gradient(#121212 94%, #2ad7d7c4);
+	}
+	@media (max-width: 500px) {
+		.contact-content {
+			flex-direction: column;
+			text-wrap: balance;
+		}
+		.hi-paragraph {
+			text-wrap: balance;
+		}
+	}
+	@media (max-width: 350px) {
+		.link-box {
+			flex-direction: column;
+		}
+		.skills-h2,
+		.project-text,
+		.skills-p,
+		.montserrat-p {
+			margin: 0;
+			padding-left: 0;
+			padding-right: 0;
+		}
 	}
 }

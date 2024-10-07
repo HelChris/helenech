@@ -1,10 +1,10 @@
 .nav-box-about {
 	background-color: #121212;
 }
-#about-box {
+.about-box {
 	width: 60%;
-	margin: 1rem 0 4rem 0;
-	padding: 0 3rem 3rem 3rem;
+	margin: 1rem 0 1rem 0;
+	padding: 1rem 2rem 2rem 2rem;
 	background-color: #2ad7d7c4;
 	color: #edeae7;
 	border-radius: 8px;
@@ -27,7 +27,7 @@ body {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-	background: linear-gradient(#121212 95%, #2ad7d7c4);
+	background: linear-gradient(#121212 98%, #2ad7d7c4);
 }
 footer {
 	margin-top: auto;
@@ -35,19 +35,38 @@ footer {
 .about-p {
 	color: #121212;
 	line-height: 1.5;
+	padding-left: 0.5rem;
 }
 .h1-about {
 	color: #121212;
-	padding: 1rem;
+	padding: 1rem 0 0 1rem;
 	font-size: 20px;
 	text-decoration: underline;
 }
 .h3-about {
 	text-align: center;
 }
-
+.last-about-box {
+	margin-bottom: 5rem;
+	padding-bottom: 1rem;
+}
 @media (max-width: 600px) {
-	#about-box {
+	.about-box {
 		min-width: 80%;
+		padding: 0;
+		margin: 1rem;
+	}
+	.last-about-box {
+		margin-bottom: 5rem;
+		padding-bottom: 1rem;
+	}
+	.skills-p,
+	.about-p {
+		max-width: 500px;
+		padding: 0.5rem 1rem;
+		text-wrap: balance;
+	}
+	.h1-about {
+		padding: 0.5rem 0.5rem 0 0.5rem;
 	}
 }
