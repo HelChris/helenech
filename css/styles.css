@@ -2,8 +2,9 @@
 @import url("_layout.css");
 @import url("_buttons.css");
 @import url("_contact-form.css");
+@import url("_about.css");
 
-body {
+/* body {
 	background: linear-gradient(#121212 90%, #2ad7d7c4);
 	width: 100vw;
-}
+} */
