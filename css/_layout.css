@@ -128,7 +128,7 @@ footer {
 @media (max-width: 600px) {
 	#hi-box {
 		width: 100%;
-		padding-top: 20vh;
+		padding-top: 15vh;
 	}
 	.hi-h1 {
 		max-width: 300px;
