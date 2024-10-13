@@ -17,12 +17,7 @@
 	align-items: center;
 	background: linear-gradient(#121212 97%, #2ad7d7c4);
 	margin-top: auto;
-	/* min-height: 80vh; */
 }
-/* .about-text {
-	max-width: 600px;
-	margin: 0 auto;
-} */
 body {
 	min-height: 100vh;
 	display: flex;
