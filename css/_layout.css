@@ -67,7 +67,7 @@ footer {
 	margin: 1.5rem;
 	padding: 1rem;
 	border-radius: 20px;
-	max-width: 500px;
+	max-width: 70%;
 	box-shadow: 4px 2px 4px rgba(18, 105, 105, 0.77);
 }
 .contact-content {
@@ -157,10 +157,10 @@ footer {
 		padding: 0.5rem;
 	}
 	.project-wrapper {
-		margin: 1rem;
+		margin: 1rem 0;
 	}
-	#contact-section {
-		padding: 3rem;
+	.contact-wrapper {
+		min-width: 90%;
 	}
 	.skills-h2 {
 		max-width: 90vw;
@@ -168,9 +168,11 @@ footer {
 	#project-section {
 		margin: 0 auto;
 		background: linear-gradient(#121212 98%, #2ad7d7c4);
+		padding-bottom: 4rem;
 	}
 	#contact-section {
 		background: linear-gradient(#121212 94%, #2ad7d7c4);
+		padding: 2rem 0 4rem 0;
 	}
 	#skills-section {
 		background: linear-gradient(#121212 94%, #2ad7d7c4);
