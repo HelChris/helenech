@@ -133,3 +133,12 @@ li {
 	text-align: center;
 	margin: 0 auto;
 }
+.bio-p {
+	max-width: 60%;
+	text-wrap: balance;
+}
+@media (max-width: 600px) {
+	.bio-p {
+		max-width: 70%;
+	}
+}
