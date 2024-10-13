@@ -135,6 +135,7 @@ li {
 }
 .bio-p {
 	max-width: 60%;
+	text-wrap: balance;
 }
 @media (max-width: 600px) {
 	.bio-p {
