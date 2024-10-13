@@ -41,6 +41,10 @@ footer {
 	text-align: center;
 	padding: 0.3rem;
 }
+.footer-container {
+	display: flex;
+	flex-direction: column;
+}
 #hi-box {
 	padding-top: 25vh;
 	display: flex;
@@ -72,6 +76,7 @@ footer {
 	flex-wrap: wrap;
 	align-items: center;
 	text-wrap: balance;
+	max-width: 70%;
 }
 .contact-content > * {
 	flex: 1 1 45%;
@@ -107,21 +112,22 @@ footer {
 	max-height: 90px;
 	max-width: 90px;
 	display: flex;
-	margin-right: 1rem;
 }
 .project-img {
 	max-width: 90%;
+}
+.logo-img {
+	max-height: 6rem;
+	margin: 0 auto;
 }
 .contact-wrapper {
 	border-radius: 10px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/* background-color: #ffffff2b; */
 	background-color: #24327759;
-	/* max-width: 40%; */
+	max-width: 60%;
 	padding: 1rem;
-	max-width: 450px;
 	box-shadow: 4px 2px 4px rgba(18, 105, 105, 0.77);
 }
 

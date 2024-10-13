@@ -26,9 +26,9 @@
 .nav-a {
 	text-decoration: none;
 	color: #000;
-	font-weight: lighter;
 	color: #e1d9d1;
 	text-shadow: 1px 1px 2px #121212;
+	font-family: "Montserrat", sans-serif;
 }
 .nav-a:hover {
 	text-decoration: underline;
@@ -45,7 +45,7 @@ a:hover {
 	margin: 5px 0 0 0;
 	text-align: center;
 	font-style: oblique;
-	font-size: 18px;
+	font-size: 1.1rem;
 	font-weight: lighter;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
@@ -54,7 +54,7 @@ p {
 	padding: 0.1rem;
 }
 .hi-h1 {
-	font-size: 30px;
+	font-size: 1.8rem;
 	text-transform: uppercase;
 	text-shadow: 1px 1px 1.5px black;
 	text-align: center;
@@ -120,7 +120,7 @@ li {
 .ul-box {
 	display: flex;
 	flex-wrap: wrap;
-	width: 400px;
+	width: 25rem;
 	justify-content: center;
 }
 .skills-h3 {
